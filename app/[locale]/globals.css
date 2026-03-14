@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* 1. Ovo je ključna linija za Tailwind v4 da prepozna klasu .dark */
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* 2. Umesto @media, koristi .dark klasu za menjanje varijabli */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* 3. Koristi Tailwind @apply za body da bi sve bilo povezano */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Opciono za lepši prelaz */
+}

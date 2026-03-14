@@ -1,0 +1,44 @@
+{
+  "Header": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "Introduction": "Hi, my name is",
+    "AboutMe": "Frontend Developer specialized in React & Next.js, building modern web applications with clean UI and scalable backend systems.",
+    "ViewProjectsBtn": "View Projects",
+    "ContactMe": "Contact Me"
+  },
+  "AboutMeSection": {
+    "AboutMeHeader": "About Me",
+    "AboutMeTextSectionOne": "Frontend developer focused on developing modern, fast, and visually appealing web applications. I primarily work with React and Next.js, using them to build clean, responsive, and user-oriented interfaces.",
+    "AboutMeTextSectionTwo": "While I specialize in frontend development, I also have experience working with backend technologies such as C# and .NET, which allows me to understand the complete architecture of modern web systems.",
+    "AboutMeTextSectionThree": "I love turning ideas into real products, solving technical challenges, and continuously improving my skills through work on real-world applications and personal projects."
+  },
+  "Projects": {
+    "Title": "Projects",
+    "InfoText": "These are my featured works. Click on a project for details or explore the full list.",
+    "ExploreAllProjectsBtn": "Browse all projects",
+    "DetailedBtn": "Details",
+    "AboutLabel": "About the project",
+    "TechLabel": "Libraries",
+    "GalleryLabel": "Gallery",
+    "DragHint": "Drag to scroll",
+    "MyPrefix": "My",
+    "AllProjectsSubtitle": "All Projects",
+    "more": "More about project"
+  },
+  "ContactPage": {
+    "LestConnect": "Let's Connect",
+    "LetsConnectLabel": "I am currently open for new opportunities and collaborations. I usually respond within 24 hours.",
+    "Username": "Your Name",
+    "Email": "Email Address",
+    "Message": "Message",
+    "MessagePlaceholder": "Enter your message",
+    "SendMessageBtn": "Send Message",
+    "Sent": "Sent",
+    "Sending": "Sending..."
+  },
+  "SkillsAndTechnologies": "Skills & Technologies"
+}

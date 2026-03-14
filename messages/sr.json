@@ -1,0 +1,44 @@
+{
+  "Header": {
+    "home": "Početna",
+    "projects": "Projekti",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "Introduction": "Pozdrav, zovem se",
+    "AboutMe" : "Frontend Developer specijalizovan u React & Next.js, kreiram moderne web aplikaije sa čistim UI i skalabilne backend sisteme.",
+    "ViewProjectsBtn": "Pogledaj projekte",
+    "ContactMe": "Kontaktiraj me"
+  },
+  "AboutMeSection": {
+    "AboutMeHeader": "O meni",
+    "AboutMeTextSectionOne": "Frontend developer fokusiran na razvoj modernih, brzih i vizuelno privlačnih web aplikacija. Najčešće radim sa React-om i Next.js-om, koje koristim za izradu čistih, responzivnih i korisnički orijentisanih interfejsa.",
+    "AboutMeTextSectionTwo": "Iako sam specijalizovan za frontend razvoj, imam i iskustva u radu sa backend tehnologijama kao što su C# i .NET, što mi omogućava da razumem kompletnu arhitekturu modernih web sistema.",
+    "AboutMeTextSectionThree": "Volim da pretvaram ideje u stvarne proizvode, rešavam tehničke izazove i kontinuirano unapređujem svoje veštine kroz rad na realnim aplikacijama i ličnim projektima."
+  },
+  "Projects": {
+    "Title": "Projekti",
+    "InfoText": "Ovo su moji najveći radovi. Klikni na projekat za detalje ili istraži kompletnu listu.",
+    "ExploreAllProjectsBtn": "Pretraži sve projekte",
+    "DetailedBtn": "Opširnije",
+    "AboutLabel": "O projektu",
+    "TechLabel": "Biblioteke",
+    "GalleryLabel": "Galerija",
+    "DragHint": "Prevuci na stranu",
+    "MyPrefix": "Moji",
+    "AllProjectsSubtitle": "Svi projekti",
+    "more": "Više o projektu"
+  },
+  "ContactPage": {
+    "LestConnect": "Konektujmo se",
+    "LetsConnectLabel": "Trenutno sam otvoren za nove prilike i saradnje. Odgovorim obično u roku od 24h.",
+    "Username": "Vaše ime",
+    "Email": "Email adresa",
+    "Message": "Poruka",
+    "MessagePlaceholder": "Unesite vašu poruku",
+    "SendMessageBtn": "Pošaljite poruku",
+    "Sent": "Poslato",
+    "Sending": "Slanje"
+  },
+  "SkillsAndTechnologies": "Veštine i Tehnologije"
+}
