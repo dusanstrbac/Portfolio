@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link"; // Dodajemo Link za navigaciju
 import ProjectCard from "./ProjectCard";
 import ProjectModal from "./ProjectModal";
 import { ProjectDetails } from "@/types/project";
 import { projects } from "@/data/projects";
 import { ArrowRight } from "lucide-react"; // Ikonica za dugme
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 export default function ProjectsSection() {
   const [selectedProject, setSelectedProject] = useState<ProjectDetails | null>(null);
@@ -51,7 +51,7 @@ export default function ProjectsSection() {
 
         {/* Dugme koje se vidi samo na mobilnom (centrirano ispod projekata) */}
         <div className="mt-12 flex md:hidden justify-center">
-          <Link 
+          <Link
             href="/projects" 
             className="flex items-center gap-2 px-8 py-4 bg-indigo-600 text-white rounded-2xl font-bold shadow-lg shadow-indigo-500/20"
           >
